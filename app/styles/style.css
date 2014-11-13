@@ -1,0 +1,9 @@
+.pageTitle {
+    display: inline-block; 
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.search{
+    min-width: 100px;
+}
