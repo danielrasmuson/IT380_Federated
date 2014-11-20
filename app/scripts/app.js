@@ -24,7 +24,8 @@ angular
         controller: 'MainCtrl'
       })
       .when('/ap', {
-        templateUrl: 'views/affinityPartner.html'
+        templateUrl: 'views/affinityPartner.html',
+        controller: 'APCtrl'
       })
       .when('/companies', {
         templateUrl: 'views/companies.html'

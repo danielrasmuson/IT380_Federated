@@ -33,5 +33,19 @@
   },
   "scripts": {
     "test": "grunt test"
-  }
+  },
+  "main": "Gruntfile.js",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danielrasmuson/IT380_Federated.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danielrasmuson/IT380_Federated/issues"
+  },
+  "homepage": "https://github.com/danielrasmuson/IT380_Federated"
 }

@@ -1,5 +1,5 @@
 <div class="pageTitle">Contacts</div>
-<button class="btn btn-primary pull-right">Add New Affinity Partner</button>
+<button class="btn btn-primary pull-right">Add New Contact</button>
 
 </head>
 <body ng-controller="BodyController">
@@ -23,7 +23,7 @@
         <td>City</td>
         <td>Size</td>
     </tr>
-    <tr>
+    <tr ng-repeat="ap in aps">
         <td>Wucket-Friesen</td>
         <td>New Anikaside</td>
         <td>712</td>
