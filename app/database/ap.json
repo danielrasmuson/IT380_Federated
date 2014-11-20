@@ -1,5 +1,8 @@
-{
-    "name": "Wucket-Friesen",
-    "city": "New Anikaside",
-    "size": 712
-}
+[
+    {
+        "id": 1,
+        "name": "Wucket-Friesen",
+        "city": "New Anikaside",
+        "size": 712
+    }
+]

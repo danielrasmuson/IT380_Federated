@@ -20,8 +20,18 @@ angular.module('federatedApp')
         xhr.send();
     }  
 
-    loadJSON('../../database/ap.json', function(json){
-      console.log(json);
+    $scope.aps = [];
+
+    loadJSON('../../database/ap.json', function(aps){
+      $scope.aps = aps;
+      console.log(aps);
+      $scope.$apply;
     });
-    
+
+    $scope.linkToAp = function(id){
+      // window.location.replace("#/ap/"+id)
+      console.log('hello');
+    }
+
+
   });

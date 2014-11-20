@@ -23,10 +23,10 @@
         <td>City</td>
         <td>Size</td>
     </tr>
-    <tr ng-repeat="ap in aps">
-        <td>Wucket-Friesen</td>
-        <td>New Anikaside</td>
-        <td>712</td>
+    <tr ng-repeat="ap in aps" ng-click="linkToAp('1')">
+        <td>{{ap.name}}</td>
+        <td>{{ap.city}}</td>
+        <td>{{ap.size}}</td>
     </tr>
 </table>
 
