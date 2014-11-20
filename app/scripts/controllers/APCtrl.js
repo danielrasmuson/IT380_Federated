@@ -24,8 +24,7 @@ angular.module('federatedApp')
 
     loadJSON('../../database/ap.json', function(aps){
       $scope.aps = aps;
-      console.log(aps);
-      $scope.$apply;
+      $scope.$apply();
     });
 
     $scope.linkToAp = function(id){
